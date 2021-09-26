@@ -41,6 +41,8 @@ group :test do
   gem 'capybara', '>= 3.26'
   gem 'shoulda-matchers', '~> 5.0'
   gem 'database_cleaner'
+  gem 'factory_bot_rails'
+  gem 'faker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
